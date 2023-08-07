@@ -6,7 +6,7 @@ categories: update
 ---
 Você tem um novo desafio!
 
-Será que ouvimos extamante o que foi dito ou tocado?
+Será que ouvimos exatamente o que foi dito ou tocado?
 
 Novo objetivo: Levantar a resposta acústica de um ambiente a um impulso sonoro.
 
