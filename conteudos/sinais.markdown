@@ -24,7 +24,7 @@ Um sinal **contínuo** é especificado em cada valor de sua variável independen
 # FIGURA!!!
 
 A temperatura de um ambiente, por exemplo, é um sinal contínuo, visto que em qualquer instante de tempo a temperatura pode ser especificada. Um sinal contínuo é representado no domínio do tempo por x(t), onde t é a variável independente.
-O gráfico da figura é representado por $$x(t) = sen(3*t) + sen(9.5*t)$$.
+O gráfico da figura é representado por $x(t) = sen(3*t) + sen(9.5*t)$.
 
 Um sinal **discreto** é especificado apenas em valores discretos de sua variável independente, como ilustrado a seguir.
 
