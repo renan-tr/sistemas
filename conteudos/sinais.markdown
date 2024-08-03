@@ -3,6 +3,7 @@ layout: page
 title: Sinais
 permalink: /sinais/
 ---
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
 ## Definições
 
@@ -24,7 +25,7 @@ Um sinal **contínuo** é especificado em cada valor de sua variável independen
 # FIGURA!!!
 
 A temperatura de um ambiente, por exemplo, é um sinal contínuo, visto que em qualquer instante de tempo a temperatura pode ser especificada. Um sinal contínuo é representado no domínio do tempo por x(t), onde t é a variável independente.
-O gráfico da figura é representado por $x(t) = sen(3*t) + sen(9.5*t)$.
+O gráfico da figura é representado por $$x(t) = sen(3*t) + sen(9.5*t)$$.
 
 Um sinal **discreto** é especificado apenas em valores discretos de sua variável independente, como ilustrado a seguir.
 
@@ -36,7 +37,7 @@ Observação: alguns sinais como vendas mensais são inerentementes discretos.
 
 Em geral, o processamento de um sinal discrete não depende do tempo de amostragem. No entanto, $T_s$ é necessário para converter o sinal discreto novamente em contínuo.
 
-Já em um sinal **digital** os valores do sinal discreto é quantizado.
+Já em um sinal **digital** os valores do sinal discreto é quantizado, sendo a forma utilizada no processamento digital de sinais.
 
-
+### Periódicos e Aperiódicos
 
