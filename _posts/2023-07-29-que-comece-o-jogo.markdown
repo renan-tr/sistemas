@@ -78,5 +78,5 @@ $$ P = \frac{1}{N} \sum_{n=0}^{N-1} \left| x(n) \right|^2 $$
 
 Sinais, periódicos ou aperiódicos, com potência média finita são chamados de sinais de potência.
 Formas de onda senoidais são típicos exemplos de sinais de potência.
-Qual a potência média da onda $$cos(2πn/4)$$
+Qual a potência média da onda $$cos(2πn/4)$$?
 
