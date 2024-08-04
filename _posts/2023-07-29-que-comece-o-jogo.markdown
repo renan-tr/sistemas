@@ -3,6 +3,7 @@ layout: post
 title:  "Que comece o jogo!"
 date:   2023-07-29 18:39:21 -0300
 categories: conteúdos, sinais
+usemathjax : true
 ---
 
 ## Definições
