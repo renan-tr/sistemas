@@ -66,4 +66,17 @@ De forma análoga, a soma dos quadrados dos valores de um sinal discreto x(n) é
 
 $$  E = \sum_{n=-\infty}^{\infty} \left| x(n) \right|^2 $$
 
+Sinais aperiódicos com energia finita são chamados de sinais de energia. Por exemplo, qual a energia de $$x(n) = 4(0.5)^n$$?
+
+Se a energia do sinal é infinita, é possível caracterizá-lo em termos da potência, definida como
+
+$$ P = \lim_{N \rightarrow \infty} \frac{1}{2N+1} \sum_{n=-N}^{N} \left| x(n) \right|^2 $$
+
+Para um sinal periódico com período N
+
+$$ P = \frac{1}{N} \sum_{n=0}^{N-1} \left| x(n) \right|^2 $$
+
+Sinais, periódicos ou aperiódicos, com potência média finita são chamados de sinais de potência.
+Formas de onda senoidais são típicos exemplos de sinais de potência.
+Qual a potência média da onda $$cos(2πn/4)$$
 
