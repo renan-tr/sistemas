@@ -46,11 +46,11 @@ Já em um sinal **digital** os valores do sinal discreto é quantizado, sendo a 
 
 Por exemplo, qual é o período do sinal a seguir:
 
-# FIGURA!!!
+![Sinal contínuo](https://renan-tr.github.io/sistemas/assets/img/periodico.png)
 
 Um sinal aperiódico típico é mostrado na figura as seguir:
 
-# FIGURA!!!
+![Sinal contínuo](https://renan-tr.github.io/sistemas/assets/img/aperiodico.png)
 
 Que sinal é esse?
 
@@ -89,7 +89,7 @@ O processamento e armazenamento de um sinal pode ser simplificado se sua simetri
 
 Exemplo:
 
-# FIGURA!!!
+![Sinal contínuo](https://renan-tr.github.io/sistemas/assets/img/simetria.png)
 
 A soma de dois sinais com simetria par resulta em outro sinal com simetria par e a soma de dois sinais com simetria ímpar resulta em outro sinal com simetria ímpar.
 
@@ -97,7 +97,7 @@ Um sinal arbitrário pode ser sempre decomposto em termos de suas componentes co
 
 Exemplo:
 
-# FIGURA!!!
+![Sinal contínuo](https://renan-tr.github.io/sistemas/assets/img/componentes.png)
 
 ### Casualidade
 
