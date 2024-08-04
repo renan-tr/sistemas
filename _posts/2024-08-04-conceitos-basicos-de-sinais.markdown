@@ -1,9 +1,8 @@
 ---
 layout: post
-title:  "Que comece o jogo!"
-date:   2023-07-29 18:39:21 -0300
+title:  "Conceitos básicos de sinais"
+date:   2024-08-04 18:39:21 -0300
 categories: conteúdos, sinais
-usemathjax : true
 ---
 
 ## Definições
@@ -23,7 +22,7 @@ Sinais em sistemas práticos possuem perfil de amplitude arbitrário, isto é, n
 
 Um sinal **contínuo** é especificado em cada valor de sua variável independente, como na figura:
 
-# FIGURA!!!
+![Sinal contínuo](assets/img/continuo.png)
 
 A temperatura de um ambiente, por exemplo, é um sinal contínuo, visto que em qualquer instante de tempo a temperatura pode ser especificada. Um sinal contínuo é representado no domínio do tempo por x(t), onde t é a variável independente.
 O gráfico da figura é representado por $x(t) = sen(3*t) + sen(9.5*t)$.
@@ -80,4 +79,25 @@ $$ P = \frac{1}{N} \sum_{n=0}^{N-1} \left| x(n) \right|^2 $$
 Sinais, periódicos ou aperiódicos, com potência média finita são chamados de sinais de potência.
 Formas de onda senoidais são típicos exemplos de sinais de potência.
 Qual a potência média da onda $$cos(2πn/4)$$?
+
+### Simetrias
+
+O processamento e armazenamento de um sinal pode ser simplificado se sua simetria for explorada.
+
+- Um sinal possui simetria par se x(-n) = x(n)
+- Um sinal possui simetria ímpar se x(-n) = -x(n)
+
+Exemplo:
+
+# FIGURA!!!
+
+A soma de dois sinais com simetria par resulta em outro sinal com simetria par e a soma de dois sinais com simetria ímpar resulta em outro sinal com simetria ímpar.
+
+Um sinal arbitrário pode ser sempre decomposto em termos de suas componentes com simetria par e ímpar, xe(n) e xo(n).
+
+Exemplo:
+
+# FIGURA!!!
+
+### Casualidade
 
