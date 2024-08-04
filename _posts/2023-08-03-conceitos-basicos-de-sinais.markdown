@@ -2,7 +2,7 @@
 layout: post
 title:  "Conceitos básicos de sinais"
 date:   2023-08-03 18:39:21 -0300
-categories: conteúdos, sinais
+categories: conteúdos
 ---
 
 ## Definições
@@ -22,7 +22,7 @@ Sinais em sistemas práticos possuem perfil de amplitude arbitrário, isto é, n
 
 Um sinal **contínuo** é especificado em cada valor de sua variável independente, como na figura:
 
-![Sinal contínuo]({{ site.baseurl }}/img/continuo.png)
+![Sinal contínuo](/assets/img/continuo.png)
 
 A temperatura de um ambiente, por exemplo, é um sinal contínuo, visto que em qualquer instante de tempo a temperatura pode ser especificada. Um sinal contínuo é representado no domínio do tempo por x(t), onde t é a variável independente.
 O gráfico da figura é representado por $x(t) = sen(3*t) + sen(9.5*t)$.
