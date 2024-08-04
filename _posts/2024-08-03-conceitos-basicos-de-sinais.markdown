@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Conceitos básicos de sinais"
-date:   2024-08-04 18:39:21 -0300
+date:   2024-08-03 18:39:21 -0300
 categories: conteúdos, sinais
 ---
 
