@@ -22,14 +22,14 @@ Sinais em sistemas práticos possuem perfil de amplitude arbitrário, isto é, n
 
 Um sinal **contínuo** é especificado em cada valor de sua variável independente, como na figura:
 
-![Sinal contínuo](/assets/img/continuo.png)
+![Sinal contínuo](https://renan-tr.github.io/sistemas/assets/img/continuo.png)
 
 A temperatura de um ambiente, por exemplo, é um sinal contínuo, visto que em qualquer instante de tempo a temperatura pode ser especificada. Um sinal contínuo é representado no domínio do tempo por x(t), onde t é a variável independente.
 O gráfico da figura é representado por $x(t) = sen(3*t) + sen(9.5*t)$.
 
 Um sinal **discreto** é especificado apenas em valores discretos de sua variável independente, como ilustrado a seguir.
 
-# FIGURA!!!
+![Sinal contínuo](https://renan-tr.github.io/sistemas/assets/img/discreto.png)
 
 Por exemplo, o sinal x(t) seria apenas representado nos valores $t = n T_s$, onde "T_s" é o tempo de amostragem (constante). Usualmente, o sinal é descrito por x(n), onde $n$ é um número inteiro. A vantagem do sinal discreto é que ele pode ser armazenado e processado de forma eficiente. Como a maioria dos sinais práticos são contínuos, o sinal discreto é obtido pela amostragem do sinal contínuo.
 
