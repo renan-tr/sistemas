@@ -40,3 +40,28 @@ Já em um sinal **digital** os valores do sinal discreto é quantizado, sendo a 
 
 ### Periódicos e Aperiódicos
 
+- O menor inteiro N positivo que satisfaça a condição x(n + N) = x(n), para todo n é o período de um sinal.
+- Quando o período se aproxima de infinito, não há repetição do padrão e o sinal é aperiódico.
+
+Por exemplo, qual é o período do sinal a seguir:
+
+# FIGURA!!!
+
+Um sinal aperiódico típico é mostrado na figura as seguir:
+
+# FIGURA!!!
+
+Que sinal é esse?
+
+è mais fácil decompor um sinal arbitrário em termos de sinais periódicos de forma que a relação entrada saída se torna uma operação de multiplicação. Dessa forma, a maiorio das análises de sinais práticos é feita considerando sinais periódicos básicos.
+
+### Energia e Potência
+
+Potência e energia envolvem tanto a amplitude do sinal com sua duração.
+Em sistemas de processamento de sinais, o sinal desejado está usualmente misturado com ruído, sendo a qualidade do sistema descrita pela relação de potência sinal ruído.
+
+A potência instantênea dissipada por um resistor de 1 ohms é $$x²(t)$$, onde x(t) pode ser a tensão ou a corrente através dele. Se a potência for integrada ao longo do tempo, obtém-se a energia dissipada.
+De forma análoga, a soma dos quadrados dos valores de um sinal discreto x(n) é um indicador de sua energia, sendo dado por:
+
+$$  E = \sum_{n=-\infty}^{\infty} \left| x(n) \right|^2 $$
+
