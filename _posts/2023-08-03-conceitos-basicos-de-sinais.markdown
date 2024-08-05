@@ -31,11 +31,11 @@ Um sinal **discreto** é especificado apenas em valores discretos de sua variáv
 
 ![Sinal contínuo](https://renan-tr.github.io/sistemas/assets/img/discreto.png)
 
-Por exemplo, o sinal x(t) seria apenas representado nos valores t = n Ts, onde Ts é o tempo de amostragem (constante). Usualmente, o sinal é descrito por x(n), onde $n$ é um número inteiro. A vantagem do sinal discreto é que ele pode ser armazenado e processado de forma eficiente. Como a maioria dos sinais práticos são contínuos, o sinal discreto é obtido pela amostragem do sinal contínuo.
+Por exemplo, o sinal x(t) seria apenas representado nos valores t = n Ts, onde Ts é o tempo de amostragem (constante). Usualmente, o sinal é descrito por x(n), onde n é um número inteiro. A vantagem do sinal discreto é que ele pode ser armazenado e processado de forma eficiente. Como a maioria dos sinais práticos são contínuos, o sinal discreto é obtido pela amostragem do sinal contínuo.
 
 Observação: alguns sinais como vendas mensais são inerentementes discretos.
 
-Em geral, o processamento de um sinal discrete não depende do tempo de amostragem. No entanto, $T_s$ é necessário para converter o sinal discreto novamente em contínuo.
+Em geral, o processamento de um sinal discrete não depende do tempo de amostragem. No entanto, Ts é necessário para converter o sinal discreto novamente em contínuo.
 
 Já em um sinal **digital** os valores do sinal discreto é quantizado, sendo a forma utilizada no processamento digital de sinais.
 
@@ -116,3 +116,9 @@ A relação entrada saída de um sistema permanece a mesma para sinais aleatóri
 ![Sinal básico](https://renan-tr.github.io/sistemas/assets/img/sinais_basicos2.png)
 
 ## Teorema da amostragem
+
+Como o processamento de sinal digital é bem mais vantajoso que o de um sinal contínuo, em geral prefere-se converter os sinais contínuos em digitais. Este processo envolve amostrar o sinal no tempo e na amplitude. Amostrar no tempo significa observar o sinal apenas em instantes discretos de tempo. Dessa forma, o número total de amostras é reduzido de infinito (sinal contínuo) para um número finito de valores. Esta redução restringe a habilidade de representar variações rápidas no tempo, reduzindo a faixa de frequências que pode ser representada em um sinal discreto.
+Como os sinais práticos possuem uma certa faixa de frequências de interesse, é possível representar um sinal contínuo por um discreto com a precisão requerida, desde que um intervalo de amostragem específico seja respeitado.
+
+O teorema da amostragem especifica que um sinal contínuo x(t) pode ser unicamente determinado a partir de sua versão amostrada x(n) se o intervalo de amostragem Ts for menor que 1/2f, onde f é a frequência da componente de maior frequência que compõe o sinal x(t). Isso implica que deve haver mais que 2 amostras por ciclo do sinal de maior frequência.
+
