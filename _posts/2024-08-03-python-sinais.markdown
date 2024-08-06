@@ -36,7 +36,7 @@ plt.plot(audio[:,0]) #gráfico de linha
 plt.stem(audio[:,0]) #gráfico stem
 plt.scatter(audio[:,0]) #gráfico de ldispersão
 ```
-Como só foi passado um parâmetro para cada comando acima, os gráficos estão sendo traçados em função do númeor da amostra.
+Como só foi passado um parâmetro para cada comando acima, os gráficos estão sendo traçados em função do número da amostra.
 
 
 Para tocar o som:
@@ -60,7 +60,7 @@ Audio(audio_1k, rate=Fs)
 
 Como podemos fazer para alterar a frequência de amostragem?
 
-Para fazer uma varredura em uma faixa de frequências, podemos usar o
+Para fazer uma varredura em uma faixa de frequências, podemos usar
 ```python
 from scipy.signal import chirp, spectrogram
 Fs = 20000
