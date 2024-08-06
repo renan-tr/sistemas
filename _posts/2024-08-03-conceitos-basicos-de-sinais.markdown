@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Conceitos básicos de sinais"
-date:   2023-08-03 18:39:21 -0300
+date:   2024-08-03 18:39:21 -0300
 categories: conteúdos
 ---
 
@@ -122,3 +122,33 @@ Como os sinais práticos possuem uma certa faixa de frequências de interesse, �
 
 O teorema da amostragem especifica que um sinal contínuo x(t) pode ser unicamente determinado a partir de sua versão amostrada x(n) se o intervalo de amostragem Ts for menor que 1/2f, onde f é a frequência da componente de maior frequência que compõe o sinal x(t). Isso implica que deve haver mais que 2 amostras por ciclo do sinal de maior frequência.
 
+A figura a seguir ilustra o efeito do intervalo de amostragem, mostrando o que ocorre quando o teorema não é respeitado.
+
+![Aliasing](https://renan-tr.github.io/sistemas/assets/img/aliasing.png)
+
+## Operações
+
+### Time shifting
+
+O sinal x(n+k) é uma versão deslocada no tempo em relação ao sinal x(n), como ilustrado na figura a seguir:
+
+![Time shifting](https://renan-tr.github.io/sistemas/assets/img/time_shifting.png)
+
+Se k for positivo, o sinal está atrasado.
+
+### Time reversal
+
+Seria o espelhamento do sinal em relação ao eixo vertical, sendo obtido ao substituir x(n) por x(-n).
+
+A figura ilustra a operação time reversal e as operações time reversal e time shifting em conjunto.
+
+![Time shifting](https://renan-tr.github.io/sistemas/assets/img/time_reversal.png)
+
+### Time scaling
+
+Substituindo a variável independente n em x(n) por n/a ou an, com a diferente de 0, resulta em uma versão com a escala modificada do sinal.
+O sinal x(an) é uma versão comprimida, enquanto o sinal x(n/a) é uma versão expandida.
+
+A operação é ilustrada na figura a seguir.
+
+![Time shifting](https://renan-tr.github.io/sistemas/assets/img/time_scaling.png)
