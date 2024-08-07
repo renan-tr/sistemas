@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Sistemas"
+date:   2024-08-10 18:39:21 -0300
+categories: conteúdos
+---
+
+## Sistema
+
+Um sistema físico é a interconexão de componentes, dispositivos ou subsistemas.
+Pode ser visto como um processo no qual as entradas são transformadas pelo sistema ou fazem com que o sistema responda de alguma forma.
+
+Em sistemas de tempo contínuo, a entrada é composta por sinais contínuos resultando também em um sinal contínuo.
+De forma similar, um sistema discreto transforma um sinal de entrada discreto em um de saída também discreto.
+
+## Propriedades Básicas de Sistemas
+
+### Memória
+
+- Um sistema não possui memória se sua saída para cada valor da variável independente em um determinado instante depende **apenas** da entrada no mesmo instante.
+
+Por exemplo, um resistor é um sistema sem memória.
+
+Já um acumulador seria exemplo de um sistema discrete com memória. De forma análoga, um capacitor é um sistema contínuo com memória.
+
+Assim, o conceito de memória corresponde a presença de um mecanismo no sistema que retém informação sobre os valores de entrada de outro instante além do atual.
+Em sistemas físicos, isso está associado com o aramzenamento de energia.
+
+### Invertibilidade
+
+Um sistema é invertível se entradas distintas levam a saídas distintas.
+Se um sistema é invertível, então existe um sistema inverso que, quando colocado em cascata com o original resulta na entrada do primeiro sistema, como ilustrado na figura a seguir.
+
+![Sinal invertível](https://renan-tr.github.io/sistemas/assets/img/sistema_invertivel.png)
+
+### Casualidade
