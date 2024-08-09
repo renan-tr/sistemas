@@ -33,4 +33,28 @@ Se um sistema é invertível, então existe um sistema inverso que, quando coloc
 
 ![Sinal invertível](https://renan-tr.github.io/sistemas/assets/img/sistema_invertivel.png)
 
-### Casualidade
+### Estabilidade
+
+É uma importante propriedade do sistema, sendo que em um sistema estável pequenas entradas levam a respostas que não divergem.
+Por exemplo, o pêndulo da figura é um sistema estável. Se for aplicada uma força, haverá um deslocamento horizontal. Entretanto, devido a força da gravidade, o pêndulo tende a voltar a posição vertical.
+Já para o pêndulo invertido, aa gravidade tende a aumentar o desvio em relação a vertical, de forma que uma pequena força aplicada leva a um grande deslocamento. Assim, o pêndulo invertido é instável.
+
+![Pêndulo](https://renan-tr.github.io/sistemas/assets/img/pendulo.png)
+
+### Invariância no tempo
+
+Um sistema é invariante no tempo se o comportamento dele é fixo ao longo do tempo.
+Por exemplo, um circuito RC é invariante no tempo se os valores de R e C foram constantes ao longo do tempo, uma vez que seriam esperados os mesmos resultados se um mesmo experimento fosse repetido em diferentes dias.
+
+De outra forma, um sistema é invariante no tempo se um deslocamento no sinal de entrada resultar em um mesmo deslocamento no sinal de saída.
+
+### Linearidade
+
+Um sistema linear é aquele que possui a propriedade da superposição. Neste caso, se a entrada consistir de uma soma ponderada de diversos sinais, a saída é a superposição (soma ponderada) das respostas do sistema a cada um dos sinais.
+
+Assim, um sistema é linear se:
+
+- A resposta para x1(t)+x2(t) for y1(t)+y2(2).
+- A resposta para a.x1(t) for a.y1(t), onde a é uma constante.
+
+A primeira corresponde à propriedade da aditividade enquanto a segunda seria a homogeneidade.
