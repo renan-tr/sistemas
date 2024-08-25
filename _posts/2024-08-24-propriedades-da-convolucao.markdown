@@ -34,6 +34,6 @@ x(n) * (h1(n) * h2(n)) = (x(n) * h1(n)) * h2(n)
 A convolução de duas sequências deslocadas é a convolução das duas sequências originais deslocadas pela soma dos deslocamentos das sequências individuais:
 
 ```
-if x(n) * h(n) = y(n) then x(n - l) * h(n - m) = y(n - l - m)
+se x(n) * h(n) = y(n) então x(n - l) * h(n - m) = y(n - l - m)
 ```
 
